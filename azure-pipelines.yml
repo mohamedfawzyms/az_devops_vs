@@ -15,7 +15,7 @@ steps:
     ScriptType: 'FilePath'
     ScriptPath: 'https://dev.azure.com/dbIaaC/Iac_Git_VS/_git/az_devops_vs?path=/Self_Hosted_Integration_IR/Self_Hosted_IR.ps1&version=GBbranch1'
     ScriptArguments: -Self_Hosted_IR_Name Test-self-hosted-ir-02 `
-                     -Resource_Group_Name arm_rg `
-                     -Workspace_Name syn-m-str-pe `
-                     -Self_Hosted_IR_Type SelfHosted 
+                     -Resource_Group_Name "arm_rg" `
+                     -Workspace_Name "syn-m-str-pe" `
+                     -Self_Hosted_IR_Type "SelfHosted" 
     preferredAzurePowerShellVersion: '6.5'
